@@ -1,0 +1,143 @@
+<!doctype html>
+<!-- https://pl.pinterest.com/pin/469148486169686037/  -->
+<html lang="pl">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Warszawska Mapa Reprywatyzacji</title>
+    <meta name="Warszawska Mapa Reprywatyzacji" content="Mapa Reprywatyzacji">
+    <meta name="NeatCode" content="Mapa Reprywatyzacji">
+    <link href="https://fonts.googleapis.com/css?family=Dosis|Open+Sans+Condensed:300" rel="stylesheet">
+    <link rel="stylesheet" href="style/reset.css?v=1.0">
+    <link rel="stylesheet" href="style/style.css?v=1.0">
+    <script src="https://use.fontawesome.com/6daeebbc0c.js"></script>
+
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+    <![endif]-->
+
+
+    <script type="text/javascript" src="js/googleMaps.js"></script>
+</head>
+
+<body>
+<div id="start" class="container-full-width header">
+    <div class="transparency-color">
+        <h1><i class="fa fa-map-o" aria-hidden="true"></i></h1>
+        <h1>Warszawska Mapa Reprywatyzacji</h1>
+    </div>
+</div>
+<div id="menu" class="menu-container">
+    <ul class="menu">
+        <li>Start</li>
+        <li>Artykuły</li>
+        <li>Wyszukaj</li>
+    </ul>
+</div>
+<div id="articles" class="container">
+    <h1 class="section-header">Artykuły</h1>
+    <p class="text-center">To miejsce to zbiór opinii i artykułów naszych ekspertów.</p>
+    <ul class="menu menu-dark">
+        <li class="active">1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+    </ul>
+    <div class="articles-table">
+        <div class="article-container">
+            <img class="article-image"
+                 src="https://images.unsplash.com/photo-1496046906094-ab55b3670ea4?w=1351&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D"/>
+            <div class="article-text">
+                <h2>Lorem Ipsum</h2>
+                <p>Dolor sum lorem ipsum dolor sum lorem ipsum dolor Dolor sum lorem ipsum dolor sum lorem ipsum
+                    dolor </p>
+            </div>
+        </div>
+        <div class="article-container">
+            <img class="article-image"
+                 src="https://images.unsplash.com/photo-1494189928325-9e2df6d7dfab?w=1349&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D"/>
+            <div class="article-text">
+                <h2>Lorem Ipsum</h2>
+                <p>Dolor sum lorem ipsum dolor sum lorem ipsum dolor Dolor sum lorem ipsum dolor sum lorem ipsum
+                    dolor </p>
+            </div>
+        </div>
+        <div class="article-container">
+            <img class="article-image"
+                 src="https://images.unsplash.com/photo-1464520460796-5d98a3e5b296?w=1350&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D"/>
+            <div class="article-text">
+                <h2>Lorem Ipsum</h2>
+                <p>Dolor sum lorem ipsum dolor sum lorem ipsum dolor Dolor sum lorem ipsum dolor sum lorem ipsum
+                    dolor </p>
+            </div>
+        </div>
+        <div class="article-container">
+            <img class="article-image"
+                 src="https://images.unsplash.com/photo-1473339478549-efdcad0e752c?w=1353&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D"/>
+            <div class="article-text">
+                <h2>Lorem Ipsum</h2>
+                <p>Dolor sum lorem ipsum dolor sum lorem ipsum dolor Dolor sum lorem ipsum dolor sum lorem ipsum
+                    dolor </p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container search-section">
+    <h1 class="section-header">Wyszukaj</h1>
+    <p class="text-center">Przeszukaj dokumenty reprywatyzacyjne w poszukiwaniu szczegółowych informacji.</p>
+    <div class="search-box">
+        <input type="text" name="search" class="search-input" placeholder="Czego szukasz?"/>
+    </div>
+    <div class="search-results">
+        <div class="search-results-item">
+            <div id="map1" class="search-results-map"></div>
+            <div class="search-results-info">
+                <h1 class="result-item">Decyzja 123/2008</h1>
+                <h2>Adres: Wawelska 7</h2>
+                <h2>Data: 01.12.2008</h2>
+                <h2>Mieszkaniec: Jan Kowalski</h2>
+                <h2>Urzędnik: John Doe</h2>
+                <div class="bottom-buttons">
+                    <button>Szczegóły</button>
+                    <button>Skan decyzji</button>
+                </div>
+            </div>
+        </div><div class="search-results-item">
+            <div id="map2" class="search-results-map"></div>
+            <div class="search-results-info">
+                <h1 class="result-item">Decyzja 123/2008</h1>
+                <h2>Adres: Wawelska 7</h2>
+                <h2>Data: 01.12.2008</h2>
+                <h2>Mieszkaniec: Jan Kowalski</h2>
+                <h2>Urzędnik: John Doe</h2>
+                <div class="bottom-buttons">
+                    <button>Szczegóły</button>
+                    <button>Skan decyzji</button>
+                </div>
+            </div>
+        </div>
+        <div class="search-results-item">
+            <div id="map3" class="search-results-map"></div>
+            <div class="search-results-info">
+                <h1 class="result-item">Decyzja 123/2008</h1>
+                <h2>Adres: Wawelska 7</h2>
+                <h2>Data: 01.12.2008</h2>
+                <h2>Mieszkaniec: Jan Kowalski</h2>
+                <h2>Urzędnik: John Doe</h2>
+                <div class="bottom-buttons">
+                    <button>Szczegóły</button>
+                    <button>Skan decyzji</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAdWvcN-Awg6yJiQXUvcYYTa-DnNesUny4&callback=myMap" async
+        defer></script>
+</body>
+
+</html>
